@@ -1,0 +1,15 @@
+ <div class="menubtn"  onclick="show()">
+        <img src="../img/menu btn.png" alt="" srcset="" />
+</div>
+       
+<script>
+  let menu = document.getElementById('menubtn')
+  function show() {
+    
+    if (menu.style.display === 'block') {
+
+          menu.style.display = 'none'
+    } else {
+      menu.style.display = 'block'
+    }
+  }
