@@ -136,7 +136,7 @@ function App() {
             </div>
           </div>
         </div>
-
+        <div class="copyright-main">
         <div class="copyright-bar">
           <p>&copy; Aspirant Solutions 2025 | All Rights Reserved</p>
           <div class="copyright-Links">
@@ -144,6 +144,7 @@ function App() {
             <a href="#">Privacy Policy</a>
             <a href="#">Contact Us</a>
           </div>
+        </div>
         </div>
       </footer>
     </>

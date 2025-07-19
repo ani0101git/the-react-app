@@ -6,7 +6,7 @@ const  About=()=> {
     <>
       <div className="main1">
 
-        <div className="onclick" id="menubtn">
+        {/* <div className="onclick" id="menubtn">
 
           <div className="drop-img">
             <img src="../img/main_logo-removebg-preview.png" alt="" srcSet="" />
@@ -35,7 +35,7 @@ const  About=()=> {
               Get in touch <img src="../img/right.png" alt="" srcSet="" />
             </button>
           </div>
-        </div>
+        </div> */}
 
         {/* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->*/}
 
@@ -45,7 +45,7 @@ const  About=()=> {
 
  
         <section className="hero-section">
-          <div className="container hero-content">
+          <div className="container hero-content ">
             <h1 className="hero-title">About Us</h1>
             <p className="breadcrumbs">Home <span>/</span> About US</p>
             <div className="hero-bg-text">ABOUT US</div>
@@ -55,20 +55,24 @@ const  About=()=> {
         <section className="about-content-section">
           <div className="container about-wrapper">
             <div className="about-text-column">
+            <div className="innovation-main"></div>
               <p className="section-tag">ABOUT COMPANY</p>
-              <h2>Crafting Brands <span className="accent-text">The Futures</span></h2>
-              <p className="description">A creative agency specially providing innovative and unique solutions to businesses build</p>
+              <h1 id="h1">Crafting Brands <br/>The<span className="accent-text"> Futures</span></h1>
+              
               <div className="features-grid">
                 <div className="feature-item"><i className="fas fa-check-circle"></i> Drive More Traffic, Convert</div>
                 <div className="feature-item"><i className="fas fa-check-circle"></i> More Customers</div>
                 <div className="feature-item"><i className="fas fa-check-circle"></i> Increase Visibility</div>
                 <div className="feature-item"><i className="fas fa-check-circle"></i> Digital Marketing Solution</div>
               </div>
+              <p className="description02">A creative agency specially providing innovative and unique solutions to businesses build</p>
               <a href="#" className="btn-read-more">READ MORE <i className="fas fa-arrow-right"></i></a>
             </div>
             <div className="about-image-column">
+            <div className="graph-img"><img src="/public/img/Graph-image.png"/></div>
               <div className="image-container">
-                <img src="../img/meet 2 img.jpg" alt="Business team working on laptop" />
+               
+                <img src="/public/img/about1-img.png" alt="Business team working on laptop" />
                 <div className="clients-circle">
                   <span>10k+</span>
                   Clients
@@ -85,14 +89,16 @@ const  About=()=> {
         <section className="innovation-section">
           <div className="container innovation-wrapper">
             <div className="innovation-left-column">
-              <p className="section-tag-small">VISION & MISSION</p>
+            
+              <p className="section-tag-small">--- VISION & MISSION ---</p>
               <h2 className="innovation-title">
+              
                 Driving Innovation,<br />
                 Empowering Future<br />
                 <span className="accent-text">Technologies</span>
               </h2>
               <div className="image-with-circle">
-                <img src="../img/meet img.jpg" alt="Person working on computer screens" />
+                <img src="/public/img/about2-img.png" alt="Person working on computer screens" />
                 <div className="circle-text">
 
                   <span className="circle-established">since 2013</span>
@@ -100,7 +106,7 @@ const  About=()=> {
               </div>
             </div>
             <div className="innovation-right-column">
-              <img src="../img/work disc.jpg" alt="Silhouette of a team of people" className="team-image" />
+              <img src="/public/img/about3-img.png" alt="Silhouette of a team of people" className="team-image" />
               <p className="innovation-description">
                 Leading the future with innovative IT solutions, transforming
                 businesses with cutting-edge technology. We empower growth
@@ -118,7 +124,7 @@ const  About=()=> {
         <section className="vision-creation-section">
           <div className="container">
             <div className="top-content">
-              <p className="section-tag-small">WHY CHOOSE US</p>
+              <p className="section-tag-small">--- WHY CHOOSE US ---</p>
               <h1 className="main-heading">
                 Your Vision Our Creation<br />
                 Elevate <span className="accent-text">Your Brand</span>
@@ -135,7 +141,7 @@ const  About=()=> {
                     bridge imagination and technology to build future-ready solutions.
                   </p>
                   <p className="box-small-text">4o</p>
-                  <img src="../img/meet img.jpg" alt="Office worker at desk" />
+                  <img src="/public/img/office worker.jpg" alt="Office worker at desk" />
                 </div>
               </div>
 
@@ -227,49 +233,49 @@ const  About=()=> {
         <div className="brands-container">
           <div className="brand-logo">
             <img
-              src="../img/outreach.png"
+              src="/public/img/outreach.png"
               alt="Outreach Logo"
             />
           </div>
           <div className="brand-logo">
             <img
-              src="../img/productBoard.png"
+              src="/public/img/productBoard.png"
               alt="Productboard Logo"
             />
           </div>
           <div className="brand-logo">
             <img
-              src="../img/opendoor.png"
+              src="/public/img/opendoor.png"
               alt="Opendoor Logo"
             />
           </div>
           <div className="brand-logo">
             <img
-              src="../img/plaid.png"
+              src="/public/img/plaid.png"
               alt="Plaid Logo"
             />
           </div>
           <div className="brand-logo">
             <img
-              src="../img/PipeDrive.png"
+              src="/public/img/pipdrive.png"
               alt="Pipedrive Logo"
             />
           </div>
           <div className="brand-logo">
             <img
-              src="../img/Rippling.png"
+              src="/public/img/Rippling.png"
               alt="Rippling Logo"
             />
           </div>
           <div className="brand-logo">
             <img
-              src="../img/pendo.png"
+              src="/public/img/pendo.png"
               alt="Pendo Logo"
             />
           </div>
           <div className="brand-logo">
             <img
-              src="../img/paypal.png"
+              src="/public/img/paypal.png"
               alt="PayPal Logo"
             />
           </div>

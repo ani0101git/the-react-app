@@ -1,3 +1,5 @@
+//  import { Link } from "react-router";
+
  const HomePage=()=>{
     return ( 
     <>
@@ -7,38 +9,7 @@
 
 
 
-        {/* <div class="onclick" id="menubtn">
-          <div class="drop-img">
-            <img src="../img/main_logo-removebg-preview.png" alt="" srcset="" />
-          </div>
-          <Link to="#">
-            <span id="home">Home</span>
-          </Link>
-          <Link to="about">About Us</Link>
-
-          <select name="cars" id="drop-text">
-            <Link to=""><option value="volvo">Service</option></Link>
-            <Link to=""><option value="saab">Saab</option></Link>
-            <Link to=""><option value="opel">Opel</option></Link>
-            <Link to=""><option value="audi">Audi</option></Link>
-          </select>
-
-          <select name="cars" id="drop-text">
-            <option value="volvo" id="drop-text">
-              blog
-            </option>
-            <option value="saab">Saab</option>
-            <option value="opel">Opel</option>
-            <option value="audi">Audi</option>
-          </select>
-
-          <Link to="">contact</Link>
-          <div class="btn-drop">
-            <button type="button">
-              Get in touch <img src=""alt="" srcset="" />
-            </button>
-          </div>
-        </div> */}
+       
 
         
 
@@ -57,7 +28,7 @@
           </p>
         </div>
 
-        <div class="div1">
+        <div class="div1 ">
           <div class="div2">
             <img src="/public/img/left-image.png" alt="" srcset="" />
           </div>
@@ -69,6 +40,9 @@
                 <br />
                 consultancy services
               </p>
+              <div className="arrow-btn1">
+              <button>Next<img src="/public/img/login.png"/></button>
+              </div>
             </div>
             <img src="/public/img/right image.png" alt="img..." srcset="" id="oneman" />
           </div>
@@ -119,8 +93,9 @@
       {/******************** * third section *****************************/}
 
       <section class="tech-section">
-        <p class="tagline">Technology What We Use</p>
+       
         <h1 class="main-heading">
+         <p class="tagline">Technology What We Use</p>
           Unleashing Creativity The
           <br />
           
@@ -184,8 +159,8 @@
             <div class="left">
               <p class="section-title">ABOUT COMPANY</p>
               <h1>
-                Crafting Brands The <br />
-                Futures <span>Elevate</span>
+                Crafting Brands The 
+                <br/>Futures <span>Elevate</span>
               </h1>
               <div class="feature">
                 <div class="icon">
@@ -229,13 +204,14 @@
             </div>
             <div class="right">
               <p class="description">
-                Aspirant Solutions is a unique organization because of its
-                combined expertise in IT & Advertising Industry.
+                Aspirant Solutions is a unique organization<br/> because of its
+                combined expertise in IT &<br/> Advertising Industry.
               </p>
               <img src="/public/img/group-discution.png" alt="Team Illustration" />
             </div>
           </div>
         </div>
+        
       </section>
 
       {/* Fifth section */}
